@@ -5,6 +5,7 @@ from .depth_estimator import DepthEstimator
 from .encoder_decoder import EncoderDecoder
 from .multimodal_encoder_decoder import MultimodalEncoderDecoder
 from .seg_tta import SegTTAModel
+from .encoder_decoder_deeplab_featmix import EncoderDecoderDeeplabFeatmix
 
 __all__ = [
     'BaseSegmentor', 'EncoderDecoder', 'CascadeEncoderDecoder', 'SegTTAModel',
